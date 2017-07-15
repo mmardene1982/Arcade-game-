@@ -1,3 +1,10 @@
 body {
     text-align: center;
+    font-family:'Luckiest Guy', cursive;
+    background-image: url(../images/background.jpg);
 }
+canvas{
+	margin-top:150px;
+}
+
+
