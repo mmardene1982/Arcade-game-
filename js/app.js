@@ -32,7 +32,7 @@ Enemy.prototype.render = function() {
 
 //create plaer function
 var Player = function (x, y){
-    this.sprite = 'images/char-princess-girl.png';
+    this.sprite = 'images/char-boy.png';
     this.x = x;
     this.y = y;
 };
