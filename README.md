@@ -1,6 +1,7 @@
-frontend-nanodegree-arcade-game
-===============================
-
-Students should use this [rubric](https://review.udacity.com/#!/projects/2696458597/rubric) for self-checking their submission. Make sure the functions you write are **object-oriented** - either class functions (like Player and Enemy) or class prototype functions such as Enemy.prototype.checkCollisions, and that the keyword 'this' is used appropriately within your class and class prototype functions to refer to the object the function is called upon. Also be sure that the **readme.md** file is updated with your instructions on both how to 1. Run and 2. Play your arcade game.
-
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+## Game Instructions 
+* first open the [index.html](https://github.com/mmardene1982/Arcade-game-/blob/master/index.html), the game should start emidietly. 
+* You as a player ![char-boy](./images/char-boy.png)need to cross the road without letting the bugs ![enemy-bug](./images/enemy-bug.png) hit you..
+* Incase any of the bugs hit you , you will get back to the fisrt postion. Your level goes back to 1 and one Live will be diducted.
+* If you manage to cross the road without any collisions, you will get an extra level and nice animation will appear right next toe the Level counter + you will get extra 100 points to your score. 
+* if you rich to level 6 your score will increase every time you cros the road by 350 points. 
+* Incase you lost all your game lives, another screan appear to show you that it is a game over and show you your laast score. Also a button to restart the game one more time. enjoy :) ....
