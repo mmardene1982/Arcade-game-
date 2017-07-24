@@ -28,10 +28,17 @@ Enemy.prototype.update = function(dt) {
     return this.x;
 };
 
-// Draw the enemy on the screen, required method for game
-Enemy.prototype.render = function() {
+var Character = function (x, y, sprite){
+    this.x = x;
+    this.y = y;
+    this.sprite = sprite;
     ctx.drawImage(Resources.get(this.sprite), this.x, this.y);
-};
+}
+// Draw the enemy on the screen, required method for game
+// Enemy.prototype.render = function() {
+//     ctx.drawImage(Resources.get(this.sprite), this.x, this.y);
+// };
+Enemy.prototype.render = Object.create(Character);
 
 //create plaer function
 var Player = function (x, y){
